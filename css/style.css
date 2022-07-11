@@ -1,0 +1,42 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    background-color: #b3b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    width: 40%;
+}
+
+button {
+    background-color: rgb(0, 192, 0);
+}
+
+.motCaché {
+    visibility: hidden;
+}
+
+.carre {
+    border: 5px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
